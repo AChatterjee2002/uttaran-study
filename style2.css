@@ -1,0 +1,127 @@
+.top{
+    margin-top: 110px;
+}
+
+.aboutus .banner{
+    margin-top: 175px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutus .about_text{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 2;
+  width: 80%;
+  padding: 250px 20px ;
+  text-align: center;
+  align-items: center;
+}
+
+.aboutus .about_text h1{
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+.aboutus .about_text p{
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+.members{
+    background-color: rgba(41, 171, 227, .1);
+}
+
+.member_list .deg h4{
+    color: #2E3192;
+}
+
+
+/* Gallery CSS */
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+    margin-top: 150px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 8px rgb(133, 133, 133);
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.gallery .row > div {
+    padding: 2px;
+}
+
+.gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    height: fit-content;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.gallery .lightbox:hover:after,
+.gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
