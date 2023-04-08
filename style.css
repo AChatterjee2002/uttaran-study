@@ -63,7 +63,7 @@ h6:last-child {
 
 h1, .title_one {
     font-weight: 800;
-    font-size: 75px;
+    font-size: 4em;
     line-height: 1;
     text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.56);
 }
@@ -724,7 +724,7 @@ transform: translateY(-6px);
 }
 
 .ban_contant {
-    max-width: 735px;
+    max-width: 800px;
 }
 .ban_slide_img::before {
     position: absolute;
