@@ -36,7 +36,7 @@
 
 .parallax {
     /* The image used */
-    background-image: url("images/background.jpg");
+    background-image: url("images/background.png");
   
     /* Set a specific height */
     min-height: 300px; 
@@ -49,12 +49,12 @@
 }
 
 .story_text h2{
-    color: #ffffff;;
-    text-shadow: 2px 2px 8px rgb(102, 102, 102);
+    color: #000000;;
+    text-shadow: 2px 2px 8px rgb(194, 194, 194);
 }
 .story_text p{
-    color: #ffffff;;
-    text-shadow: 2px 2px 8px rgb(102, 102, 102);
+    color: #000000;;
+    text-shadow: 2px 2px 8px rgb(194, 194, 194);
 }
 
 .members{
@@ -62,7 +62,11 @@
 }
 
 .member_list .deg h4{
-    color: #2E3192;
+    color: #29AAE3;
+}
+
+.members h2,.deg,.name{
+    text-shadow: 2px 2px 8px rgb(122, 122, 122);
 }
 
 
@@ -149,6 +153,41 @@
 
 .card{
     box-shadow: 2px 4px 10px gray;
+}
+
+.f_btn{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    border: 3px solid #a1a1a1;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    padding: 0 30px;
+}
+
+.f_btn:hover{
+    color: #fff;
+    background: #0a2c9c;
+    border: 3px solid #29AAE3;
+}
+
+.form-search input{
+    width: 40%;
+    padding: 14px 15px;
+    border-radius: 50px;
+    border: 1px solid #b6c3cd;
+    color:#4E565C;
+    outline: none;
+}
+
+.card_wrap{
+    padding: 10px;
+    box-shadow: 3px 4px 8px gray;
 }
 
 @media(max-width: 768px) {
